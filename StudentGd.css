@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background: linear-gradient(45deg, #d96d82 , #2b43ba);
+    background-image: url("https://img.freepik.com/free-photo/pieces-blue-stationery_23-2148169528.jpg?w=1060&t=st=1686229545~exp=1686230145~hmac=7489c68a14ae4626948afa07298bc3c7993c90c861effc7895c3f8ddb95e4838");
+   background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.container .card{
+    height: 60vh;
+    width: 300px;
+    background: rgba(255,255,255,.3);
+    border-radius: 23px;
+    box-shadow: rgba(0,0,0,.18);
+    border-top: 1px solid rgba(255,255,255,.2);
+    border-left: 1px solid rgba(255,255,255,.2);
+    margin-top: 20px;
+}
+.flex-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+h2{
+    text-align: center;
+    position: relative;
+    top: 20%;
+    font-weight:500;
+    font-size: 30px;
+    color: #ffff;
+    font-family:sans-serif;
+    text-shadow: rgba(0,0,0,.18);
+}
+
+.input{
+    margin:10px 0px;
+}
+
+.input input{
+    width: 90%;
+    height: 22px;
+    margin:10px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    text-indent: 30px;
+    padding: 3px 5px;
+    color: #000;
+    box-shadow: rgba(0,0,0,.18);
+}
+
+::placeholder{
+    font-weight: bold;
+    text-indent: 30px;
+    padding: 3px 5px;
+    color: #000;
+}
+
+button{
+    background-color: crimson;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: #fff;
+    margin: 10px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: rgb(120, 13, 34);
+}
+
+p{
+    color:crimson;
+   
+    font-weight: bold;
+    padding: 3px 15px;
+    color: #fff;
+    text-align: center;
+   
+   
+}
